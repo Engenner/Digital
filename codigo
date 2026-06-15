@@ -1,0 +1,17 @@
+# anonimizacion_basica.py
+import pandas as pd
+import hashlib
+
+def anonimizar_columna(df, columna):
+    return df[columna].apply(lambda x: hashlib.sha256(str(x).encode()).hexdigest())
+
+# Ejemplo con datos ficticios
+datos = pd.DataFrame({
+    'nombre': ['Ana Pérez', 'Luis Gómez'],
+    'email': ['ana@mail.com', 'luis@mail.com'],
+    'edad': [29, 34]
+})
+datos['nombre_hash'] = anonimizar_columna(datos, 'nombre')
+datos['email_hash'] = anonimizar_columna(datos, 'email')
+datos_anon = datos.drop(columns=['nombre', 'email'])
+print(datos_anon)
