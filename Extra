@@ -1,0 +1,13 @@
+# Actividad Autónoma 5 - Privacidad y normativas digitales
+## Universidad Nacional de Chimborazo
+### Cultura Digital y Sociedad
+
+Este repositorio contiene el código utilizado para demostrar técnicas de anonimización de datos como parte de la actividad. Se incluye un script en Python que aplica hash SHA-256 a columnas sensibles (nombre, email) respetando principios del GDPR.
+
+**Archivos:**
+- `anonimizacion_basica.py` – ejemplo simple de anonimización.
+- `informe_actividad.pdf` – informe completo con análisis ético y respuestas a normativas.
+
+**Requisitos:** Python 3.7+, pandas.
+
+**Ejecución:** `python anonimizacion_basica.py`
