@@ -1,7 +1,3 @@
- 
-
-
-
 
 CULTURA DIGITAL Y SOCIEDAD
 Actividad Autónoma 5
@@ -9,11 +5,9 @@ Unidad 3: Datos, Privacidad y Seguridad en la Era Digital
 Tema 1: Privacidad de Datos y Normativas Digitales
 
 
-Nombres:
-Fecha:
+Nombres:Angel Quiguiri
 Carrera: Ciencia de Datos 
-Periodo académico: 
-Semestre:
+Semestre:Tercero
  
 Objetivo de la actividad:
 Analizar e implementar técnicas de anonimización de datos respetando normativas internacionales como el GDPR y la CCPA, desarrollando pensamiento crítico sobre la ética y privacidad en el contexto de la Ciencia de Datos.
